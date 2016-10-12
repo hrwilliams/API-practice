@@ -3,7 +3,7 @@ function Person(userName) {
 }
 
 Person.prototype.greeting = function(name) {
-  var output = "hello " + name
+  var output = "hello " + name;
   return output;
 };
 
